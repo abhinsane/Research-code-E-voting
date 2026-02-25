@@ -1,0 +1,14 @@
+{
+  "num_voters": 30,
+  "chain_valid_after_attacks": false,
+  "vote_results": {
+    "Bob": 8,
+    "Carol": 14,
+    "Alice": 8
+  },
+  "attack_outcomes": {
+    "replay_attack_not_detected": true,
+    "tamper_attack_undetected": false,
+    "template_inversion_success": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "enrolled": 30,
+  "chain_valid": true,
+  "tally": {
+    "Bob": 8,
+    "Carol": 14,
+    "Alice": 8
+  },
+  "receipts_preview": [
+    {
+      "voter_id": "voter_001__Left_index_finger",
+      "candidate": "Bob",
+      "block_hash": "000026dc1ef46886d0a1570caab7ccafcb6f098e6df97212aff66cad4c2989c1",
+      "zkp_valid": true
+    },
+    {
+      "voter_id": "voter_002__Left_index_finger",
+      "candidate": "Carol",
+      "block_hash": "000055063a72b58f1238dcc7c57170fb9e14c711440698acc5a071d9532de593",
+      "zkp_valid": true
+    },
+    {
+      "voter_id": "voter_003__Left_index_finger",
+      "candidate": "Bob",
+      "block_hash": "0000bdd32fc67fbacb75a146db3d444599d5dbde27a1d305429fbe71d03e52b9",
+      "zkp_valid": true
+    },
+    {
+      "voter_id": "voter_004__Left_index_finger",
+      "candidate": "Bob",
+      "block_hash": "000627a484d2898d496b4e9a4c07c1132138598f7097ed563dc79f7ca2c1bf2f",
+      "zkp_valid": true
+    },
+    {
+      "voter_id": "voter_005__Left_index_finger",
+      "candidate": "Carol",
+      "block_hash": "000567972aab6b618799fe2a05d2ce23c2fc1d24e61b4501a139212eb58cd2d9",
+      "zkp_valid": true
+    }
+  ]
+}
