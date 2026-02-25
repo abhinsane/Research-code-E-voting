@@ -1,0 +1,20 @@
+{
+  "num_voters": 30,
+  "he_backend": "toy-fhe",
+  "chain_valid_after_attacks": false,
+  "nullifiers_unique_after_attacks": false,
+  "vote_results": {
+    "Bob": 8,
+    "Carol": 14,
+    "Alice": 8
+  },
+  "attack_outcomes": {
+    "replay_attack_blocked": true,
+    "tamper_attack_undetected": false,
+    "template_inversion_success": false,
+    "hill_climbing_success": false,
+    "presentation_attack_success": false,
+    "collusion_attack_success": false,
+    "node_compromise_undetected": false
+  }
+}

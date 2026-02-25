@@ -1,0 +1,9 @@
+{
+  "records": 50,
+  "genuine_pairs": 5,
+  "impostor_pairs": 395,
+  "threshold": 0.01,
+  "far": 0.10632911392405063,
+  "frr": 1.0,
+  "eer": 0.5531645569620253
+}

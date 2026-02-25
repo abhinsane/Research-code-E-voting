@@ -1,0 +1,48 @@
+{
+  "enrolled": 30,
+  "he_backend": "toy-fhe",
+  "chain_valid": true,
+  "nullifiers_unique": true,
+  "tally": {
+    "Bob": 8,
+    "Carol": 14,
+    "Alice": 8
+  },
+  "receipts_preview": [
+    {
+      "voter_id": "voter_001__Left_index_finger",
+      "candidate": "Bob",
+      "block_hash": "0003bbc4c77784fbb2439210cb4f06095c8c149ec2f1f3c71b963646c9613a13",
+      "zkp_valid": true,
+      "nullifier": "b985dad50673c1993ec6b9ecd8b606bc41490e7221639461a141f298bd267a19"
+    },
+    {
+      "voter_id": "voter_001__Right_index_finger",
+      "candidate": "Carol",
+      "block_hash": "0000039e41c7967cbf8d81b9180dba6a6727debfded7518280b82bab72fc1657",
+      "zkp_valid": true,
+      "nullifier": "26d20bc2f2b3e6edc2f99f31556d39f2625de8e1b851b174632ddcce2648bec4"
+    },
+    {
+      "voter_id": "voter_002__Left_index_finger",
+      "candidate": "Bob",
+      "block_hash": "00037bf8a60f02b173c45f4db6f398efdd1fe480ec6daa8427d8b0d062316cad",
+      "zkp_valid": true,
+      "nullifier": "d159eb24c115d2539838c659159cd598f8557ff592cfc1bf3f4fea50f875b7a3"
+    },
+    {
+      "voter_id": "voter_002__Right_index_finger",
+      "candidate": "Bob",
+      "block_hash": "000df3d3ab86b1189ef62cbc8e83dd44b6a7c60d773ea8a68bee3c1d6762ca18",
+      "zkp_valid": true,
+      "nullifier": "fc2f8278879500773065de9e1d59d1ccf6f0c93657b05f72f021074a34ea7ce1"
+    },
+    {
+      "voter_id": "voter_003__Left_index_finger",
+      "candidate": "Carol",
+      "block_hash": "000c2040903d8ec77c2d7649c84653525997afba21de876da965e155750af49f",
+      "zkp_valid": true,
+      "nullifier": "e79362967d7cba1e1ec3c88c2464e5faa65a2d638b05ae3b70e377e5911e1757"
+    }
+  ]
+}
