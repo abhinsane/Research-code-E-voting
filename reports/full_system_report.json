@@ -1,0 +1,114 @@
+{
+  "election": {
+    "enrolled": 30,
+    "he_backend": "toy-fhe",
+    "chain_valid": true,
+    "nullifiers_unique": true,
+    "tally": {
+      "Bob": 8,
+      "Carol": 14,
+      "Alice": 8
+    },
+    "receipts_preview": [
+      {
+        "voter_id": "voter_001__Left_index_finger",
+        "candidate": "Bob",
+        "block_hash": "000d2a0a6042ff052cad2630c7029c5a076880f89b27a49a07b2bd2e10f24d3c",
+        "zkp_valid": true,
+        "nullifier": "c143d22d0e82930fb90b674849ddd8969ffc1dc3320a3ecee6773d9e26391df1"
+      },
+      {
+        "voter_id": "voter_001__Right_index_finger",
+        "candidate": "Carol",
+        "block_hash": "000bbfb0e49d98128c649d1ef2e5ddab5c6b861430ab2a84602cbe702ad1324c",
+        "zkp_valid": true,
+        "nullifier": "11064e0514c8a68e25713de782150568b25402addb9f126ec689fc33d16804e3"
+      },
+      {
+        "voter_id": "voter_002__Left_index_finger",
+        "candidate": "Bob",
+        "block_hash": "000dff95c6908571d660a2a812452508a1b583fb480f6f3f21de7da049e7e428",
+        "zkp_valid": true,
+        "nullifier": "269439970e3cfc7eacbc9eb0959008c4df977a414b86c86e1881af1e107072df"
+      },
+      {
+        "voter_id": "voter_002__Right_index_finger",
+        "candidate": "Bob",
+        "block_hash": "000baf75b309249782967d851c5207ffd87a62eced1c8d620f2107bf41ff5b20",
+        "zkp_valid": true,
+        "nullifier": "f63585633521dc52bc7f1c69e3ab0ac86d3ec43ff9c537e6db4805a610bdfc10"
+      },
+      {
+        "voter_id": "voter_003__Left_index_finger",
+        "candidate": "Carol",
+        "block_hash": "000c92d1570fc03f960fca54bab402f6e143f8abb7539b1967802ac0b3328b08",
+        "zkp_valid": true,
+        "nullifier": "9e7394963ad6d03b3c73af1bce5f0f5782db8b67adf2ccd73112ec1a15367b0e"
+      },
+      {
+        "voter_id": "voter_003__Right_index_finger",
+        "candidate": "Carol",
+        "block_hash": "00046404df48b653154c9bd0e4beea1438036978fcf0d7946f09305130d0e05a",
+        "zkp_valid": true,
+        "nullifier": "2670ba19fb7828e5d6ca2321d5af1b650ad854105e308fa88c46330eb5ffa0af"
+      },
+      {
+        "voter_id": "voter_004__Left_index_finger",
+        "candidate": "Alice",
+        "block_hash": "0005d26532c8b1f5d4ca8a96a3e41c62ced96c5168bfb5bd03fc533ea09c7450",
+        "zkp_valid": true,
+        "nullifier": "95a7a4ab5ab57cf9d413eabe467112b3e1127c89881034b8358cd680aa3452e4"
+      },
+      {
+        "voter_id": "voter_004__Right_index_finger",
+        "candidate": "Alice",
+        "block_hash": "000f1305a43301e2505f74f376ab6df50d640bc4bbe874c929d7dcfb475f19c6",
+        "zkp_valid": true,
+        "nullifier": "6aade5f7e06cbcfc4452f878c035eca12966c1e35ebccd346789bf44865e2e92"
+      },
+      {
+        "voter_id": "voter_005__Left_index_finger",
+        "candidate": "Carol",
+        "block_hash": "000d832892be213d0a18275461fa456862c0637a36dea809376a40c9c6099922",
+        "zkp_valid": true,
+        "nullifier": "3cc2c24992f3bcb7cf1326de8371d8b156367ec3ae810368ba8c204b8cf43ee6"
+      },
+      {
+        "voter_id": "voter_005__Right_index_finger",
+        "candidate": "Bob",
+        "block_hash": "00096d5843d1867ec4741b007928fa2e200d72e4a777acb2edb0cec913dd91b3",
+        "zkp_valid": true,
+        "nullifier": "c26447121cfbad7f5321cdf676e91d9642d1fc3027654d6fd2e82fc18f1fc100"
+      }
+    ]
+  },
+  "attacks": {
+    "num_voters": 30,
+    "he_backend": "toy-fhe",
+    "chain_valid_after_attacks": false,
+    "nullifiers_unique_after_attacks": false,
+    "vote_results": {
+      "Bob": 8,
+      "Carol": 14,
+      "Alice": 8
+    },
+    "attack_outcomes": {
+      "replay_attack_blocked": true,
+      "tamper_attack_undetected": false,
+      "template_inversion_success": false,
+      "hill_climbing_success": false,
+      "presentation_attack_success": false,
+      "collusion_attack_success": false,
+      "node_compromise_undetected": false
+    }
+  },
+  "biometric_quality": {
+    "records": 30,
+    "genuine_pairs": 11,
+    "impostor_pairs": 389,
+    "threshold": 0.01,
+    "far": 0.10539845758354756,
+    "frr": 0.9090909090909091,
+    "eer": 0.5072446833372283
+  }
+}

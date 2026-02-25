@@ -13,6 +13,7 @@ python scripts/generate_mock_socofing.py --out data/SOCOFing_mock --samples 50
 python scripts/run_pipeline.py --dataset data/SOCOFing_mock --voters 30 --output reports/run_results.json
 python attacks/simulate_attacks.py --dataset data/SOCOFing_mock --voters 30 --output reports/attack_results.json
 python scripts/analyze_biometric_quality.py --dataset data/SOCOFing_mock --voters 50 --output reports/biometric_quality.json
+python scripts/run_full_system.py --dataset data/SOCOFing_mock --voters 30 --output reports/full_system_report.json
 ```
 
 ## Key Outcomes

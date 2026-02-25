@@ -1,5 +1,6 @@
-"""Hybrid E-voting research prototype with Blockchain + ZKP + FHE + cancellable biometrics + PQC."""
+"""Hybrid E-voting research prototype with Blockchain + ZKP + HE + cancellable biometrics + PQC."""
 
 from .pipeline import EVotingPipeline
+from .system import FullEVotingSystem, FullSystemResult
 
-__all__ = ["EVotingPipeline"]
+__all__ = ["EVotingPipeline", "FullEVotingSystem", "FullSystemResult"]

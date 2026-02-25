@@ -12,37 +12,37 @@
     {
       "voter_id": "voter_001__Left_index_finger",
       "candidate": "Bob",
-      "block_hash": "0003bbc4c77784fbb2439210cb4f06095c8c149ec2f1f3c71b963646c9613a13",
+      "block_hash": "0006f1bb1167c72e6830a789a9f337e37052185383e4c2ef75080ce04acdd871",
       "zkp_valid": true,
-      "nullifier": "b985dad50673c1993ec6b9ecd8b606bc41490e7221639461a141f298bd267a19"
+      "nullifier": "5e56ce63aa5acf1f0510801c6f2d5c1eea4d7915b727dc102cdde14340de2002"
     },
     {
       "voter_id": "voter_001__Right_index_finger",
       "candidate": "Carol",
-      "block_hash": "0000039e41c7967cbf8d81b9180dba6a6727debfded7518280b82bab72fc1657",
+      "block_hash": "00052dabe2606713fad7e36cbdd645e31d2383e60391a8be56977903634da193",
       "zkp_valid": true,
-      "nullifier": "26d20bc2f2b3e6edc2f99f31556d39f2625de8e1b851b174632ddcce2648bec4"
+      "nullifier": "429977cabd457d4cd6c68ae4113c5d55a8a5e392660d7a0b09f8bcd5dc54cc3f"
     },
     {
       "voter_id": "voter_002__Left_index_finger",
       "candidate": "Bob",
-      "block_hash": "00037bf8a60f02b173c45f4db6f398efdd1fe480ec6daa8427d8b0d062316cad",
+      "block_hash": "00029750c651bdf24e1764b337229ae9d802ca4dd2f7fde77f89d788a9de3bfe",
       "zkp_valid": true,
-      "nullifier": "d159eb24c115d2539838c659159cd598f8557ff592cfc1bf3f4fea50f875b7a3"
+      "nullifier": "649ee1afa710fbe9dc006c4b3ff7c6bc3c8314a98553ef0c79eaeb3b54afb751"
     },
     {
       "voter_id": "voter_002__Right_index_finger",
       "candidate": "Bob",
-      "block_hash": "000df3d3ab86b1189ef62cbc8e83dd44b6a7c60d773ea8a68bee3c1d6762ca18",
+      "block_hash": "000279b2aa8a3934a2e0b00dafb4c3d0debbc3d3f1423a6a94e77c35ff0b18db",
       "zkp_valid": true,
-      "nullifier": "fc2f8278879500773065de9e1d59d1ccf6f0c93657b05f72f021074a34ea7ce1"
+      "nullifier": "63586c271f3f942246a13e4d72e3b8d5e765e96167f504ca1efe7c3cbb68b3eb"
     },
     {
       "voter_id": "voter_003__Left_index_finger",
       "candidate": "Carol",
-      "block_hash": "000c2040903d8ec77c2d7649c84653525997afba21de876da965e155750af49f",
+      "block_hash": "000126ce9e0f8ade98a57ba84387f59109384c9d7635980f93b8f7fd5ec1d95f",
       "zkp_valid": true,
-      "nullifier": "e79362967d7cba1e1ec3c88c2464e5faa65a2d638b05ae3b70e377e5911e1757"
+      "nullifier": "ebaa5e26f760d4526e73a9706f33fe1e75fb33b2b1057bf3440d673ee1a44c3c"
     }
   ]
 }

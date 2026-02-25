@@ -20,12 +20,14 @@ scripts/
   generate_mock_socofing.py
   run_pipeline.py
   analyze_biometric_quality.py
+  run_full_system.py
 evoting_system/
   biometric.py
   blockchain.py
   crypto_primitives.py
   dataset.py
   pipeline.py
+  system.py
 reports/
 ```
 
@@ -36,6 +38,7 @@ python scripts/generate_mock_socofing.py --out data/SOCOFing_mock --samples 50
 python scripts/run_pipeline.py --dataset data/SOCOFing_mock --voters 30 --output reports/run_results.json
 python attacks/simulate_attacks.py --dataset data/SOCOFing_mock --voters 30 --output reports/attack_results.json
 python scripts/analyze_biometric_quality.py --dataset data/SOCOFing_mock --voters 50 --output reports/biometric_quality.json
+python scripts/run_full_system.py --dataset data/SOCOFing_mock --voters 30 --output reports/full_system_report.json
 ```
 
 ## Implemented improvements
@@ -59,3 +62,11 @@ pip install oqs-python tenseal
 ```
 
 If these are absent, the system still runs in fallback mode for reproducibility.
+
+## Full system code entrypoint
+
+Use this single command to execute the complete workflow (election + attacks + biometric quality) and generate one integrated report:
+
+```bash
+python scripts/run_full_system.py --dataset data/SOCOFing_mock --voters 30 --output reports/full_system_report.json
+```
